@@ -32,6 +32,19 @@
             $data=file_get_contents("https://api.covid19india.org/state_district_wise.json");
             
             $corona=json_decode($data,true);
+	    if(isset($_POST["submit"])){
+            
+                echo '<div class="active-box alert alert-warning">';
+                    echo '<p class="font-weight-bold"> Active: </p>';
+                    $state=$_POST["state"];
+                    $dist=$_POST["dist"];
+                    $state=ucfirst($state);
+                    $dist=ucfirst($dist);  
+                    echo '<div class="numbers text-center">';
+                        echo ($corona[$state]['districtData'][$dist]['active']);
+                    echo '</div>';
+                echo '</div>';
+             }
         ?>
 	</div>
 </body>
