@@ -27,6 +27,12 @@
                 </form>
             </div>
         </div>
+	 <div class="col-md-6 right-box">
+        <?php
+            $data=file_get_contents("https://api.covid19india.org/state_district_wise.json");
+            
+            $corona=json_decode($data,true);
+        ?>
 	</div>
 </body>
 </html>
