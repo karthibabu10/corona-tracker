@@ -15,5 +15,18 @@
     <div class="header">
         <H1 class="text-center font-weight-bold">Corona Tracker India</H1>
     </div>	
+	<div class="row">
+        <div class="col-md-6 left-box">
+            <div class="form">
+                <form action="" method="post">
+                    <input type="text" name="state" id="state" placeholder="State" ><br><br>
+                    <input type="text" name="dist" id="dist" placeholder="District">
+                    <div class="button p-3 text-center ml-auto ">
+                        <button class="btn btn-primary" type="submit" name="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+	</div>
 </body>
 </html>
