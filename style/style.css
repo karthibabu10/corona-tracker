@@ -8,3 +8,7 @@
   align-items: center;
   justify-content: center;
 }
+.header {
+  padding-top: 15px;
+  color: rgb(255, 30, 0);
+}
