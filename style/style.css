@@ -12,3 +12,7 @@
   padding-top: 15px;
   color: rgb(255, 30, 0);
 }
+input {
+  width: 250px;
+  border-radius: 5px;
+}
