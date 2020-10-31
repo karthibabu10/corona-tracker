@@ -29,3 +29,6 @@ img {
   min-height: 100%;
   z-index: -999999999999;
 }
+.alert {
+  width: 170px;
+}
