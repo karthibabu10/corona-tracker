@@ -23,4 +23,6 @@ justify-content: center;
 }
 img {
   position: fixed;
+  right: 0;
+  bottom: 0;
 }
